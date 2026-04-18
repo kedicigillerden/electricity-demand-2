@@ -1,0 +1,7 @@
+2023 - TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy - VIF
+============================================================================
+
+CDD                  1.1506
+HDD                  1.1501
+night                1.0920
+weekend              1.0919

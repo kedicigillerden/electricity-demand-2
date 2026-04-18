@@ -1,0 +1,32 @@
+2023 - TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        log_consumption   R-squared:                       0.618
+Model:                            OLS   Adj. R-squared:                  0.617
+Method:                 Least Squares   F-statistic:                     2494.
+Date:                Fri, 17 Apr 2026   Prob (F-statistic):               0.00
+Time:                        18:59:23   Log-Likelihood:                 7744.9
+No. Observations:                8760   AIC:                        -1.548e+04
+Df Residuals:                    8753   BIC:                        -1.543e+04
+Df Model:                           6                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         10.5918      0.001   7530.705      0.000      10.589      10.595
+HDD            0.0105      0.001      8.257      0.000       0.008       0.013
+CDD            0.0755      0.001     63.553      0.000       0.073       0.078
+night         -0.1996      0.002    -88.436      0.000      -0.204      -0.195
+weekend       -0.0947      0.003    -36.826      0.000      -0.100      -0.090
+PMI            0.0119      0.003      4.016      0.000       0.006       0.018
+IR             0.0286      0.003      9.920      0.000       0.023       0.034
+==============================================================================
+Omnibus:                     1382.303   Durbin-Watson:                   0.364
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3274.060
+Skew:                          -0.902   Prob(JB):                         0.00
+Kurtosis:                       5.390   Cond. No.                         4.77
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)

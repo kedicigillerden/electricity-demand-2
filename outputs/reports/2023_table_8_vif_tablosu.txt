@@ -1,0 +1,9 @@
+2023 - TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR - VIF
+============================================================================================
+
+IR                   6.0632
+PMI                  5.8618
+HDD                  1.3508
+CDD                  1.1796
+weekend              1.0921
+night                1.0920

@@ -1,0 +1,28 @@
+2023 - TABLE 1 - consumption ~ HDD + CDD
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            consumption   R-squared:                       0.258
+Model:                            OLS   Adj. R-squared:                  0.258
+Method:                 Least Squares   F-statistic:                     1296.
+Date:                Fri, 17 Apr 2026   Prob (F-statistic):               0.00
+Time:                        18:59:20   Log-Likelihood:                -87225.
+No. Observations:                8760   AIC:                         1.745e+05
+Df Residuals:                    8757   BIC:                         1.745e+05
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.702e+04     54.570    678.448      0.000    3.69e+04    3.71e+04
+HDD          229.2931     58.550      3.916      0.000     114.537     344.049
+CDD         3085.7054     62.950     49.018      0.000    2962.326    3209.085
+==============================================================================
+Omnibus:                      503.395   Durbin-Watson:                   0.091
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              210.372
+Skew:                          -0.139   Prob(JB):                     2.08e-46
+Kurtosis:                       2.294   Cond. No.                         1.46
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)

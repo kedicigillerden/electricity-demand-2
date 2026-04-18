@@ -1,0 +1,10 @@
+2022 - TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR - VIF
+=============================================================================================
+
+IR                   6.2513
+PMI                  4.2400
+CUR                  4.2282
+HDD                  2.4413
+CDD                  1.3048
+night                1.2069
+weekend              1.1057

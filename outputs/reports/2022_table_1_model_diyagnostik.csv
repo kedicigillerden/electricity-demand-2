@@ -1,0 +1,10 @@
+model_id,prompt,metric,value
+model_1,TABLE 1 - consumption ~ HDD + CDD,dependent_variable,consumption
+model_1,TABLE 1 - consumption ~ HDD + CDD,plot_year,2022
+model_1,TABLE 1 - consumption ~ HDD + CDD,month_dummy_in_model,0
+model_1,TABLE 1 - consumption ~ HDD + CDD,n_obs,8760
+model_1,TABLE 1 - consumption ~ HDD + CDD,durbin_watson,0.08563762791395357
+model_1,TABLE 1 - consumption ~ HDD + CDD,raw_condition_number,14.040180255080813
+model_1,TABLE 1 - consumption ~ HDD + CDD,scaled_condition_number,1.4225324576236111
+model_1,TABLE 1 - consumption ~ HDD + CDD,r_squared,0.1651884581588644
+model_1,TABLE 1 - consumption ~ HDD + CDD,adj_r_squared,0.1649977966213878

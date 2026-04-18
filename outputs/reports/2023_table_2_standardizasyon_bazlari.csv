@@ -1,0 +1,3 @@
+model_id,prompt,variable,mean,std
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,HDD,5.188167188827582,5.665398178566963
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,CDD,0.44673002590544614,1.1334251242483004

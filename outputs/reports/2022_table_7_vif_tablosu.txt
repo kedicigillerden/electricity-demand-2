@@ -1,0 +1,9 @@
+2022 - TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR - VIF
+===========================================================================================
+
+PMI                  4.2381
+IR                   2.8958
+HDD                  2.4185
+CDD                  1.2472
+night                1.2006
+weekend              1.1037

@@ -1,0 +1,10 @@
+model_id,prompt,metric,value
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,dependent_variable,consumption
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,plot_year,2024
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,month_dummy_in_model,0
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,n_obs,8784
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,durbin_watson,0.2821626497999189
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,raw_condition_number,18.384618383572093
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,scaled_condition_number,2.7949186225928915
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,r_squared,0.5186937305532873
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,adj_r_squared,0.5185292751081461

@@ -1,0 +1,18 @@
+2023 - TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies - VIF
+============================================================================================
+
+HDD                  5.4156
+CDD                  3.7702
+month_8              3.4027
+month_2              2.5244
+month_1              2.2063
+month_7              1.9313
+month_12             1.5859
+month_6              1.3993
+weekend              1.3954
+night                1.3867
+month_3              1.3182
+month_10             1.2598
+month_5              1.2251
+month_4              1.1344
+month_11             1.1246

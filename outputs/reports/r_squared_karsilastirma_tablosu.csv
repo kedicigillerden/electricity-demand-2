@@ -1,0 +1,17 @@
+﻿label,2022,2023,2024
+"Table 1
+consumption ~ HDD + CDD",0.1651884581588644,0.25791449397500443,0.20672260720240032
+"Table 2
+consumption ~ HDD + CDD + night dummy",0.4555535519402102,0.5576548564555122,0.5186937305532873
+"Table 3
+consumption ~ HDD + CDD + night dummy + weekend dummy",0.5435051345587535,0.6281490208469119,0.570354163037732
+"Table 4
+consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies",0.6501212449004644,0.7134149717289324,0.6759027047174545
+"Table 5
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5645962085717783,0.6396551743348321,0.5729520674726396
+"Table 6
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR",0.585089886399756,0.6428865773635152,0.5946699593065763
+"Table 7
+log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5470989492263397,0.6176638268758633,0.5527997158958768
+"Table 8
+sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5571128977562394,0.6301919855163651,0.5646807783620159

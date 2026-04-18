@@ -1,0 +1,4 @@
+model_id,prompt,variable,vif
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,CDD,1.150412933313203
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,HDD,1.149851270559963
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,night,1.000541055764884
