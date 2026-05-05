@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repo çek
+      - name: Repo cek
         uses: actions/checkout@v4
 
       - name: Python kur
@@ -27,16 +27,17 @@ jobs:
 
       - name: Patch uygula
         run: |
-          git apply patches/add-economic-interaction-models.patch
+          sed -n '/^--- a\/talep_tahmin_tek_dosya.py/,$p' patches/add-economic-interaction-models.patch > clean.patch
+          git apply clean.patch
 
-      - name: Modeli çalıştır
+      - name: Modeli calistir
         run: |
           python talep_tahmin_tek_dosya.py
 
-      - name: Outputları commit et
+      - name: Outputlari commit et
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add outputs/
-          git commit -m "Auto outputs" || echo "No changes"
+          git commit -m "Generate patched model outputs" || echo "No changes"
           git push
