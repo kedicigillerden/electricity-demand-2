@@ -1,0 +1,42 @@
+name: Run Patched Model
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-model:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Paketleri kur
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pandas numpy matplotlib statsmodels openpyxl
+
+      - name: Patch uygula
+        run: |
+          git apply patches/add-economic-interaction-models.patch
+
+      - name: Modeli çalıştır
+        run: |
+          python talep_tahmin_tek_dosya.py
+
+      - name: Outputları commit et
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add outputs/
+          git commit -m "Auto outputs" || echo "No changes"
+          git push
