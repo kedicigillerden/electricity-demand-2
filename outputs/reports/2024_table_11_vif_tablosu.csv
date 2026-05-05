@@ -1,0 +1,11 @@
+model_id,prompt,variable,vif
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,PMI_c,6672.413550055344
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,PMI_IR,6399.157560217832
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,CUR_c,1221.2766814909726
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,CUR_IR,1195.2740725499934
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,IR_c,16.743337695046254
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,PMI_CUR,3.2242230798638927
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,HDD,3.135589354753031
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,CDD,1.472129223224406
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,weekend,1.0984527983331223
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,night,1.0906423014131907

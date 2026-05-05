@@ -1,0 +1,12 @@
+2022 - TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR - VIF
+======================================================================================================================
+
+CUR_IR               258.1115
+CUR_c                237.4971
+PMI_IR               200.3054
+PMI_c                193.8442
+IR_c                 6.2740
+HDD                  2.9363
+CDD                  1.4494
+night                1.2419
+weekend              1.1097

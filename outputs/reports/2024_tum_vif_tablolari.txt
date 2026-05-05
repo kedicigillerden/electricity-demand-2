@@ -74,3 +74,38 @@ CDD                  1.2972
 weekend              1.0961
 night                1.0905
 
+TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR
+---------------------------------------------------------------------------------------
+PMI_c                1627.6121
+PMI_IR               1569.8361
+IR_c                 6.5508
+HDD                  2.7523
+CDD                  1.2993
+weekend              1.0962
+night                1.0905
+
+TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR
+---------------------------------------------------------------------------------------------------------
+PMI_c                6666.4649
+PMI_IR               6398.2004
+CUR_c                1101.8886
+CUR_IR               1077.4998
+IR_c                 16.7092
+HDD                  2.9926
+CDD                  1.3318
+weekend              1.0963
+night                1.0906
+
+TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR
+-------------------------------------------------------------------------------------------------------------------
+PMI_c                6672.4136
+PMI_IR               6399.1576
+CUR_c                1221.2767
+CUR_IR               1195.2741
+IR_c                 16.7433
+PMI_CUR              3.2242
+HDD                  3.1356
+CDD                  1.4721
+weekend              1.0985
+night                1.0906
+

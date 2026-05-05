@@ -3,8 +3,8 @@ model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,dependent_variable,consu
 model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,plot_year,2023
 model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,month_dummy_in_model,0
 model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,n_obs,8760
-model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,durbin_watson,0.30078933492089727
-model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,raw_condition_number,18.347708502963453
-model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,scaled_condition_number,2.698963794814642
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,durbin_watson,0.30078933492089777
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,raw_condition_number,18.34770850296346
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,scaled_condition_number,2.6989637948146514
 model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,r_squared,0.5576548564555122
 model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,adj_r_squared,0.5575032991884229

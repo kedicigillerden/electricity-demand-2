@@ -1,7 +1,7 @@
 model_id,prompt,variable,vif
 model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,HDD,2.5305584385618323
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146297
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.5648120485641204
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562861
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.09606278983511
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146296
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.564812048564118
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562837
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.0960627898351096
 model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,night,1.090526888622203

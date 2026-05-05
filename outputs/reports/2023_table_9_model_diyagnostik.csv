@@ -1,0 +1,10 @@
+model_id,prompt,metric,value
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,dependent_variable,consumption
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,plot_year,2023
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,month_dummy_in_model,0
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,n_obs,8760
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,durbin_watson,0.4080443898951368
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,raw_condition_number,86.84428410750166
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,scaled_condition_number,6.254795969147362
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,r_squared,0.6643836305712749
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,adj_r_squared,0.6641151988315581

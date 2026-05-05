@@ -1,50 +1,76 @@
 model_id,prompt,variable,vif,year
-model_1,TABLE 1 - consumption ~ HDD + CDD,CDD,1.2688693202580714,2024
-model_1,TABLE 1 - consumption ~ HDD + CDD,HDD,1.268869320258044,2024
-model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,CDD,1.2691441904486735,2024
-model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,HDD,1.268931164314193,2024
-model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,night,1.000216680053873,2024
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,CDD,1.2737910393274998,2024
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,HDD,1.269192495652848,2024
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,weekend,1.0946120735399634,2024
+model_1,TABLE 1 - consumption ~ HDD + CDD,CDD,1.268869320258068,2024
+model_1,TABLE 1 - consumption ~ HDD + CDD,HDD,1.268869320258048,2024
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,CDD,1.2691441904486707,2024
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,HDD,1.268931164314189,2024
+model_2,TABLE 2 - consumption ~ HDD + CDD + night dummy,night,1.0002166800538728,2024
+model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,CDD,1.2737910393274994,2024
+model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,HDD,1.2691924956528469,2024
+model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,weekend,1.0946120735399627,2024
 model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,night,1.0904023248242707,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,HDD,4.769604639328435,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,HDD,4.769604639328437,2024
 model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,CDD,3.470196851545872,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_7,2.4576149481778513,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_8,2.2933842112244855,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_1,2.021376144204559,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_12,1.9168809413520773,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_6,1.691877495232278,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_2,1.5693516116505901,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,weekend,1.3977370829200124,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_11,1.3960825926729445,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,night,1.3847092761942819,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_7,2.4576149481778526,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_8,2.2933842112244847,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_1,2.0213761442045604,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_12,1.916880941352076,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_6,1.691877495232277,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_2,1.5693516116505921,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,weekend,1.3977370829200133,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_11,1.3960825926729439,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,night,1.384709276194282,2024
 model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_3,1.3807223621992262,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_5,1.2172188084780342,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_4,1.208860119096796,2024
-model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_10,1.1361109388250745,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_5,1.217218808478035,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_4,1.208860119096799,2024
+model_4,TABLE 4 - consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies,month_10,1.136110938825074,2024
 model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,HDD,2.5305584385618323,2024
-model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146297,2024
-model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.5648120485641204,2024
-model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562861,2024
-model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.09606278983511,2024
+model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146296,2024
+model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.564812048564118,2024
+model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562837,2024
+model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.0960627898351096,2024
 model_5,TABLE 5 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,night,1.090526888622203,2024
 model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,HDD,2.7593786213025586,2024
-model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,PMI,2.12214584842881,2024
-model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,IR,1.973324895871923,2024
-model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,CUR,1.5000117435249978,2024
-model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,CDD,1.3308110718542125,2024
+model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,PMI,2.1221458484288127,2024
+model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,IR,1.9733248958719252,2024
+model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,CUR,1.500011743524997,2024
+model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,CDD,1.3308110718542157,2024
 model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,weekend,1.0961662384951039,2024
 model_6,TABLE 6 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR,night,1.0905562144692926,2024
 model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,HDD,2.5305584385618323,2024
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146297,2024
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.5648120485641204,2024
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562861,2024
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.09606278983511,2024
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146296,2024
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.564812048564118,2024
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562837,2024
+model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.0960627898351096,2024
 model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,night,1.090526888622203,2024
 model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,HDD,2.5305584385618323,2024
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146297,2024
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.5648120485641204,2024
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562861,2024
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.09606278983511,2024
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,1.921732730146296,2024
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,1.564812048564118,2024
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,1.2971843855562837,2024
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,weekend,1.0960627898351096,2024
 model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,night,1.090526888622203,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,PMI_c,1627.6121075133713,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,PMI_IR,1569.836080370561,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,IR_c,6.550811443757758,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,HDD,2.752339342704771,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,CDD,1.2992700636754924,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,weekend,1.0962443694547104,2024
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,night,1.0905478692704709,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,PMI_c,6666.46491453343,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,PMI_IR,6398.200404866366,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,CUR_c,1101.8886197604738,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,CUR_IR,1077.499826522843,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,IR_c,16.709225264246445,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,HDD,2.992599137915911,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,CDD,1.3317567393654821,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,weekend,1.096305034454089,2024
+model_10,TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR,night,1.0905687744894577,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,PMI_c,6672.413550055344,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,PMI_IR,6399.157560217832,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,CUR_c,1221.2766814909726,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,CUR_IR,1195.2740725499934,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,IR_c,16.743337695046254,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,PMI_CUR,3.2242230798638927,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,HDD,3.135589354753031,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,CDD,1.472129223224406,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,weekend,1.0984527983331223,2024
+model_11,TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR,night,1.0906423014131907,2024

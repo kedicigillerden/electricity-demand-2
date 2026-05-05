@@ -1,0 +1,6 @@
+model_id,prompt,variable,mean,std
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,HDD,5.188167188827582,5.665398178566963
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,CDD,0.44673002590544614,1.1334251242483004
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,PMI_c,0.9892773222677762,1.363507723508031
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,IR_c,-6.7237801219878035,12.69346187922209
+model_9,TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR,PMI_IR,-22.192908565211013,19.92556655903414

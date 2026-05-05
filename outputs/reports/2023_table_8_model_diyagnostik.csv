@@ -3,8 +3,8 @@ model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + P
 model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,plot_year,2023
 model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,month_dummy_in_model,0
 model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,n_obs,8760
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,durbin_watson,0.37378594654989894
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,raw_condition_number,4984.759179063965
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,scaled_condition_number,4.766440477595023
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,r_squared,0.6301919855163651
-model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,adj_r_squared,0.6299384897906823
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,durbin_watson,0.37378594654989955
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,raw_condition_number,4984.759179063976
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,scaled_condition_number,4.766440477595031
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,r_squared,0.630191985516365
+model_8,TABLE 8 - sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,adj_r_squared,0.6299384897906821

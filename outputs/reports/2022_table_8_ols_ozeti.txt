@@ -5,8 +5,8 @@
 Dep. Variable:       sqrt_consumption   R-squared:                       0.557
 Model:                            OLS   Adj. R-squared:                  0.557
 Method:                 Least Squares   F-statistic:                     1887.
-Date:                Fri, 17 Apr 2026   Prob (F-statistic):               0.00
-Time:                        18:59:20   Log-Likelihood:                -32334.
+Date:                Tue, 05 May 2026   Prob (F-statistic):               0.00
+Time:                        12:56:20   Log-Likelihood:                -32334.
 No. Observations:                8760   AIC:                         6.468e+04
 Df Residuals:                    8753   BIC:                         6.473e+04
 Df Model:                           6                                         

@@ -39,3 +39,18 @@ OLS summary: outputs/reports/2023_table_7_ols_ozeti.txt
 OLS table: outputs/reports/2023_table_8_ols_regresyon_tablosu.csv
 VIF table: outputs/reports/2023_table_8_vif_tablosu.csv
 OLS summary: outputs/reports/2023_table_8_ols_ozeti.txt
+
+2023 - TABLE 9 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR
+OLS table: outputs/reports/2023_table_9_ols_regresyon_tablosu.csv
+VIF table: outputs/reports/2023_table_9_vif_tablosu.csv
+OLS summary: outputs/reports/2023_table_9_ols_ozeti.txt
+
+2023 - TABLE 10 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR
+OLS table: outputs/reports/2023_table_10_ols_regresyon_tablosu.csv
+VIF table: outputs/reports/2023_table_10_vif_tablosu.csv
+OLS summary: outputs/reports/2023_table_10_ols_ozeti.txt
+
+2023 - TABLE 11 - consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR
+OLS table: outputs/reports/2023_table_11_ols_regresyon_tablosu.csv
+VIF table: outputs/reports/2023_table_11_vif_tablosu.csv
+OLS summary: outputs/reports/2023_table_11_ols_ozeti.txt

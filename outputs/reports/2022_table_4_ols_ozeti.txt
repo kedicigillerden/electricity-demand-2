@@ -5,8 +5,8 @@
 Dep. Variable:            consumption   R-squared:                       0.650
 Model:                            OLS   Adj. R-squared:                  0.650
 Method:                 Least Squares   F-statistic:                     1211.
-Date:                Fri, 17 Apr 2026   Prob (F-statistic):               0.00
-Time:                        18:59:17   Log-Likelihood:                -83367.
+Date:                Tue, 05 May 2026   Prob (F-statistic):               0.00
+Time:                        12:56:18   Log-Likelihood:                -83367.
 No. Observations:                8760   AIC:                         1.668e+05
 Df Residuals:                    8744   BIC:                         1.669e+05
 Df Model:                          15                                         

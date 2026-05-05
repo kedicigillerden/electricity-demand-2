@@ -1,17 +1,23 @@
 ﻿label,2022,2023,2024
 "Table 1
 consumption ~ HDD + CDD",0.1651884581588644,0.25791449397500443,0.20672260720240032
+"Table 10
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR",0.6054600605554876,0.6690693955153549,0.5951159260431684
+"Table 11
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + CUR_c + PMI_IR + CUR_IR + PMI_CUR",0.6097450025835442,0.6726930077725701,0.6022091499392359
 "Table 2
-consumption ~ HDD + CDD + night dummy",0.4555535519402102,0.5576548564555122,0.5186937305532873
+consumption ~ HDD + CDD + night dummy",0.4555535519402105,0.5576548564555122,0.5186937305532873
 "Table 3
-consumption ~ HDD + CDD + night dummy + weekend dummy",0.5435051345587535,0.6281490208469119,0.570354163037732
+consumption ~ HDD + CDD + night dummy + weekend dummy",0.5435051345587536,0.6281490208469119,0.5703541630377321
 "Table 4
-consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies",0.6501212449004644,0.7134149717289324,0.6759027047174545
+consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies",0.6501212449004645,0.7134149717289326,0.6759027047174544
 "Table 5
-consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5645962085717783,0.6396551743348321,0.5729520674726396
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5645962085717784,0.639655174334832,0.5729520674726396
 "Table 6
-consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR",0.585089886399756,0.6428865773635152,0.5946699593065763
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR",0.5850898863997558,0.6428865773635152,0.5946699593065762
 "Table 7
-log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5470989492263397,0.6176638268758633,0.5527997158958768
+log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.54709894922634,0.6176638268758641,0.5527997158958766
 "Table 8
-sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5571128977562394,0.6301919855163651,0.5646807783620159
+sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR",0.5571128977562394,0.630191985516365,0.564680778362016
+"Table 9
+consumption ~ HDD + CDD + night dummy + weekend dummy + PMI_c + IR_c + PMI_IR",0.57344782351698,0.6643836305712749,0.5745289093598711
