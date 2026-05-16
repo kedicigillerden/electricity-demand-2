@@ -1,3 +1,0 @@
-model_id,prompt,variable,mean,std
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,HDD,6.04122703350024,6.512924129238941
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,CDD,0.6483414682989339,1.776427111513111

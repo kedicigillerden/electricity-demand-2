@@ -1,5 +1,0 @@
-model_id,prompt,variable,mean,std
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,HDD,6.04122703350024,6.512924129238941
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,CDD,0.6483414682989339,1.776427111513111
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,PMI,48.17287671232876,1.495528934196637
-model_7,TABLE 7 - log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR,IR,12.617808219178082,1.9291805674561033

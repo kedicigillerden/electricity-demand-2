@@ -1,9 +1,18 @@
-.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
+.env
 
-data/processed/
+# Ham veri dosyalari buyuk/ozel olabilir; sadece klasor yapisi tutulur.
+data/raw/**/*.xlsx
+data/raw/**/*.xls
+data/raw/**/*.csv
 
-.DS_Store
-Thumbs.db
-*.Rhistory
+# Uretilen ciktilar workflow artifact olarak yuklenir.
+data/processed/*
+!data/processed/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep

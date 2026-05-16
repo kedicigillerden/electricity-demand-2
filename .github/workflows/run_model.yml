@@ -1,0 +1,39 @@
+name: Run demand model
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  run-model:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run model script
+        run: python talep_tahmin_tek_dosya.py
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-reports
+          path: outputs/reports
+          if-no-files-found: warn
+
+      - name: Upload figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-figures
+          path: outputs/figures
+          if-no-files-found: warn

@@ -1,5 +1,0 @@
-model_id,prompt,variable,vif
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,CDD,1.2737910393274994
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,HDD,1.2691924956528469
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,weekend,1.0946120735399627
-model_3,TABLE 3 - consumption ~ HDD + CDD + night dummy + weekend dummy,night,1.0904023248242707
