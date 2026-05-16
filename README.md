@@ -1,100 +1,53 @@
-# Elektrik Talep Analizi
+# Elektrik Talep Tahmini
 
-Bu repo, 2022, 2023 ve 2024 yillari icin saatlik elektrik tuketimi ve sicaklik verilerini kullanarak farkli OLS regresyon modelleri kurar, VIF tablolari uretir ve modellerin `R^2` performanslarini karsilastirir.
+Bu repo, saatlik elektrik tuketimi, sicaklik ve aylik makroekonomik degiskenlerle elektrik talebi icin ekonometrik modelleme akisini icerir.
 
-Ana calisan dosya:
+Ana dosya:
 
 - `talep_tahmin_tek_dosya.py`
 
 ## Veri Yapisi
 
-Ham veriler `data/raw/` altindadir:
+Ham veriler repoya eklenmez. Asagidaki klasorlere Excel dosyalarini koyun:
 
-- `data/raw/consumption/`
-- `data/raw/temperature/`
-- `data/raw/economic/`
+- `data/raw/consumption/tuketim_2022.xlsx`
+- `data/raw/consumption/tuketim_2023.xlsx`
+- `data/raw/consumption/tuketim_2024.xlsx`
+- `data/raw/temperature/sicaklik_2022.xlsx`
+- `data/raw/temperature/sicaklik_2023.xlsx`
+- `data/raw/temperature/sicaklik_2024.xlsx`
+- `data/raw/economic/pmi_degerleri.xlsx`
+- `data/raw/economic/faiz_oranlari.xlsx`
+- `data/raw/economic/kapasite_kullanim_orani.xlsx`
 
-Kullanilan temel degiskenler:
+## Modelleme Notlari
 
-- `HDD`
-- `CDD`
-- `night dummy`
-- `weekend dummy`
-- `month dummies`
-- `PMI`
-- `IR`
-- `CUR`
+- `HDD = max(18 - temperature, 0)`
+- `CDD = max(temperature - 24, 0)`
+- `HDD x CDD` yapisal olarak anlamsiz oldugu icin interaction adaylarindan cikarilir.
+- `month` numeric continuous veya polynomial kaynak olarak kullanilmaz; ay etkisi month dummy ile temsil edilir.
+- Ham `hour` 0-23 degeri interactionlara sokulmaz; saat interactionlari `hour_z` ile kurulur.
+- Full month dummy iceren modellerde `PMI`, `IR`, `CUR` ana etki olarak kullanilmaz.
+- Macro ana etkileri sadece month-dummy'siz robustness modellerinde yer alir.
 
-## Kurulan Modeller
+## Modeller
 
-Script, her yil icin su 8 modeli ayri ayri kurar:
-
-1. `consumption ~ HDD + CDD`
-2. `consumption ~ HDD + CDD + night dummy`
-3. `consumption ~ HDD + CDD + night dummy + weekend dummy`
-4. `consumption ~ HDD + CDD + night dummy + weekend dummy + month dummies`
-5. `consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR`
-6. `consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR + CUR`
-7. `log_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR`
-8. `sqrt_consumption ~ HDD + CDD + night dummy + weekend dummy + PMI + IR`
-
-## Uretilen Ciktilar
-
-Script calistiginda `outputs/` altinda su dosyalar olusur:
-
-- Her yil icin ayri model rehberi
-- Her tablo icin ayri OLS regression table
-- Her tablo icin ayri VIF table
-- Her tablo icin ayri model summary
-- Her tablo icin ayri standardizasyon bazlari
-- Her tablo icin ayri model diagnostic
-- 2022, 2023 ve 2024 icin tuketim figurlari
-- `R^2` karsilastirma grafigi
-- `R^2` isi haritasi
-
-Ornek ciktilar:
-
-- `outputs/reports/2022_model_rehberi.txt`
-- `outputs/reports/2023_table_6_ols_regresyon_tablosu.csv`
-- `outputs/reports/2024_table_6_vif_tablosu.txt`
-- `outputs/reports/tum_yillar_ols_regresyon_tablolari.csv`
-- `outputs/reports/tum_yillar_vif_tablolari.txt`
-- `outputs/reports/r_squared_karsilastirma_tablosu.csv`
-- `outputs/figures/r_squared_karsilastirma_grafigi.png`
-- `outputs/figures/r_squared_karsilastirma_isiharitasi.png`
+- Model A: Seasonal baseline, month dummies var, macro ana etki yok.
+- Model B: Ana model, month dummies + macro x high-frequency interaction.
+- Model C: Robustness, month dummies yok, macro ana etkiler var.
+- Model D: Genisletilmis robustness, macro ana etkiler + macro x high-frequency interaction.
 
 ## Calistirma
 
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+```bash
+python -m pip install -r requirements.txt
 python talep_tahmin_tek_dosya.py
 ```
 
-## GitHub'a Yukleme
+Ciktilar:
 
-Bu repo su an ciktilariyla birlikte GitHub'a yuklenmeye uygun hale getirildi. `outputs/` klasoru ignore edilmiyor; yani olusan tablolar ve grafikler de commit'e dahil olabilir.
+- OLS ozetleri: `outputs/reports/*.txt`
+- Model metrikleri: `outputs/reports/model_A_B_C_D_ozet_metrikleri.txt`
+- Grafikler: `outputs/figures/*.png`
 
-Terminalde proje klasorunde su adimlari izleyebilirsin:
-
-```powershell
-cd "C:\Users\Monster\OneDrive\Masaüstü\proje2"
-git init
-git add .
-git commit -m "Initial project upload"
-git branch -M main
-git remote add origin <REPO_URL>
-git push -u origin main
-```
-
-`<REPO_URL>` yerine GitHub'da olusturdugun bos reponun adresini koy:
-
-```text
-https://github.com/kullanici-adi/repo-adi.git
-```
-
-## Not
-
-- `.venv`, `__pycache__` ve benzeri gecici dosyalar repo'ya gitmez.
-- Ciktilar repo'ya dahildir; yani GitHub'da tablolar ve grafikler dogrudan gorulebilir.
+GitHub Actions workflow'u scripti calistirir ve `outputs/reports` ile `outputs/figures` klasorlerini artifact olarak yukler. Veri dosyalari yoksa workflow basarisiz olmaz; eksik veri raporu artifact olarak uretilir.
